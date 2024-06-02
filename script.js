@@ -11,3 +11,5 @@ function onmouseOut() {
 
 letter.addEventListener("mouseenter", onmouseEnter);
 letter.addEventListener("mouseleave", onmouseOut);
+letter.addEventListener("mousedown", onmouseEnter);
+letter.addEventListener("mouseup", onmouseOut);
